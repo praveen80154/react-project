@@ -37,3 +37,7 @@
     ]
   }
 }
+"scripts": {
+  "build": "npm run compile && npm run minify"
+}
+

@@ -15,7 +15,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "npm run compile && npm run minify", 
-    "compile": "your-compile-command-here", 
+    "compile": "webpack",
     "minify": "your-minify-command-here",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

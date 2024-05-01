@@ -14,10 +14,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "npm run compile && npm run minify", // One "build" script with multiple commands
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "build": "npm run compile && npm run minify" // Adding your new build script here
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [

@@ -14,7 +14,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "npm run compile && npm run minify", // One "build" script with multiple commands
+    "build": "npm run compile && npm run minify", 
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

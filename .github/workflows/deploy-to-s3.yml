@@ -20,8 +20,8 @@ jobs:
 
       - name: Configure AWS credentials
         run: |
-          aws configure set aws_access_key_id AKIAXYKJRLVUEAI544O4
-          aws configure set aws_secret_access_key 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
+          aws configure set aws_access_key_id ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws configure set aws_secret_access_key ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws configure set region Europe (Stockholm) eu-north-1
 
       - name: Sync files to S3 bucket
